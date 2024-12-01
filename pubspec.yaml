@@ -1,0 +1,42 @@
+name: doan_tn
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  permission_handler: ^10.4.0
+  cached_network_image: 3.4.0
+  carousel_slider: 5.0.0
+  cloud_firestore: 4.17.3
+  cupertino_icons: ^1.0.2
+  firebase_auth: 4.17.8
+  firebase_core: 2.31.0
+  intl: ^0.17.0
+  image_picker: ^0.8.7+5
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  provider: ^6.1.2
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/ava.png"
+
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
